@@ -4,15 +4,50 @@
   * The CSS Variables are then used in tailwind.config.js so that e.g. `bg-primary-200` can be used.
   */
 :root {
-  --color-primary-100: #ECEFF5;
-  --color-primary-200: #C3CBDC;
-  --color-primary-300: #9BA8C2;
-  --color-primary-400: #7686A6;
-  --color-primary:     #526488;
-  --color-primary-600: #3E4F70;
-  --color-primary-700: #2C3A57;
-  --color-primary-800: #1C263B;
-  --color-primary-900: #0D131E;
+  
+  --color-primary-900: #11051C;
+  --color-primary-800: #230C35;
+  --color-primary-700: #34154D;
+  --color-primary-600: #442162;
+  --color-primary:     #552E75;
+  --color-primary-400: #745091;
+  --color-primary-300: #9374AC;
+  --color-primary-200: #B199C5;
+  --color-primary-100: #D0C0DD;
+  --color-primary-50: #EEE8F3;
+
+  --color-secondary-900: #200417;
+  --color-secondary-800: #3D0B2E;
+  --color-secondary-700: #571443;
+  --color-secondary-600: #6F2057;
+  --color-secondary:     #842E6A;
+  --color-secondary-400: #9E4F87;
+  --color-secondary-300: #B773A2;
+  --color-secondary-200: #CE98BD;
+  --color-secondary-100: #E2BFD8;
+  --color-secondary-50: #F5E8F1;
+
+  --color-tertiary-900: #1E2805;
+  --color-tertiary-800: #3B4C0D;
+  --color-tertiary-700: #566D19;
+  --color-tertiary-600: #708B27;
+  --color-tertiary:     #88A539;
+  --color-tertiary-400: #A0BB57;
+  --color-tertiary-300: #B7CE78;
+  --color-tertiary-200: #CCDF9B;
+  --color-tertiary-100: #E1EDC0;
+  --color-tertiary-50: #F5F9E8;
+
+  --color-complementary-900: #2A2805;
+  --color-complementary-800: #504E0E;
+  --color-complementary-700: #73701A;
+  --color-complementary-600: #928E29;
+  --color-complementary:     #AEAA3C;
+  --color-complementary-400: #C2BF5A;
+  --color-complementary-300: #D4D179;
+  --color-complementary-200: #E3E19C;
+  --color-complementary-100: #F0EEC1;
+  --color-complementary-50: #FAFAE8;
 
   --color-gray-50:     #F9FAFB;
   --color-gray-100:    #F3F4F6;
@@ -26,10 +61,10 @@
   --color-gray-900:    #111827;
 
   --text: var(--color-primary-200);
-  --text-secondary: var(--color-primary-400);
+  --text-secondary: var(--color-secondary-200);
 
-  --bg: var(--color-gray-900);
-  --bg-secondary: var(--color-gray-800);
+  --bg: var(--color-primary-900);
+  --bg-secondary: var(--color-secondary-900);
 
   --border-color: var(--color-primary-400);
   --border-color-secondary: var(--color-primary);
@@ -37,10 +72,10 @@
 
 .light {
   --text: var(--color-primary-800);
-  --text-secondary: var(--color-primary-600);
+  --text-secondary: var(--color-secondary-800);
 
-  --bg: var(--color-gray-200);
-  --bg-secondary: var(--color-gray-100);
+  --bg: var(--color-primary-50);
+  --bg-secondary: var(--color-secondary-50);
 
   --border-color: var(--color-primary);
   --border-color-secondary: var(--color-primary-600);
