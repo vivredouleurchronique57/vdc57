@@ -36,6 +36,10 @@ module.exports = {
           700: 'var(--color-primary-700)',
           800: 'var(--color-primary-800)',
           900: 'var(--color-primary-900)',
+          light: 'var(--color-primary-200)',
+          lighter: 'var(--color-primary-50)',
+          dark: 'var(--color-primary-800)',
+          darker: 'var(--color-primary-900)',
         },
         secondary: {
           50: 'var(--color-secondary-50)',
@@ -48,6 +52,42 @@ module.exports = {
           700: 'var(--color-secondary-700)',
           800: 'var(--color-secondary-800)',
           900: 'var(--color-secondary-900)',
+          light: 'var(--color-secondary-200)',
+          lighter: 'var(--color-secondary-50)',
+          dark: 'var(--color-secondary-800)',
+          darker: 'var(--color-secondary-900)',
+        },
+        tertiary: {
+          50: 'var(--color-tertiary-50)',
+          100: 'var(--color-tertiary-100)',
+          200: 'var(--color-tertiary-200)',
+          300: 'var(--color-tertiary-300)',
+          400: 'var(--color-tertiary-400)',
+          DEFAULT: 'var(--color-tertiary)',
+          600: 'var(--color-tertiary-600)',
+          700: 'var(--color-tertiary-700)',
+          800: 'var(--color-tertiary-800)',
+          900: 'var(--color-tertiary-900)',
+          light: 'var(--color-tertiary-200)',
+          lighter: 'var(--color-tertiary-50)',
+          dark: 'var(--color-tertiary-800)',
+          darker: 'var(--color-tertiary-900)',
+        },
+        complementary: {
+          50: 'var(--color-complementary-50)',
+          100: 'var(--color-complementary-100)',
+          200: 'var(--color-complementary-200)',
+          300: 'var(--color-complementary-300)',
+          400: 'var(--color-complementary-400)',
+          DEFAULT: 'var(--color-complementary)',
+          600: 'var(--color-complementary-600)',
+          700: 'var(--color-complementary-700)',
+          800: 'var(--color-complementary-800)',
+          900: 'var(--color-complementary-900)',
+          light: 'var(--color-complementary-200)',
+          lighter: 'var(--color-complementary-50)',
+          dark: 'var(--color-complementary-800)',
+          darker: 'var(--color-complementary-900)',
         },
       },
       screens: {
@@ -60,12 +100,10 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [
-    require('flowbite/plugin')
-  ],
+  plugins: [require('flowbite/plugin')],
   content: [
     // other files...
-    "./node_modules/flowbite.{js,ts}"
+    './node_modules/flowbite.{js,ts}',
   ],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css

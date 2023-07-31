@@ -1,19 +1,24 @@
 <template>
   <main>
     <section v-if="post">
-      <nav class="mb-8" aria-label="go back">
+      <nav class="mb-8" aria-label="retour">
         <router-back class="block" />
       </nav>
 
       <article>
-        <h5
-          v-if="post.createdAt"
-          class="inline-block py-1 px-2 my-2 bg-gray text-white text-sm font-medium rounded-sm whitespace-no-wrap"
-        >
-          {{ formatDate(post.createdAt) }}
-        </h5>
+        <div class="flex justify-between flex-wrap-reverse">
+          <span class="badge text-tertiary-dark bg-tertiary-light dark:text-tertiary-light dark:bg-tertiary-dark"
+            >Publiée le {{ formatDate(post.createdAt) }}</span
+          >
+          <span
+            v-if="post.newsDate"
+            class="badge text-tertiary-light bg-tertiary-dark dark:text-tertiary-dark dark:bg-tertiary-light"
+            >Date de l'actualitée : {{ formatDate(post.newsDate) }}</span
+          >
+        </div>
+
         <h1 class="">{{ post.title }}</h1>
-        <p class="mt-1 mb-4 text-primary-600 dark:text-primary-400">{{ post.description }}</p>
+
         <nuxt-content :document="post" />
       </article>
     </section>

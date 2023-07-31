@@ -38,7 +38,7 @@
             <nuxt-link to="/news" class="nav-item">Actualités</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects" class="nav-item">Projects</nuxt-link>
+            <nuxt-link to="/articles" class="nav-item">Articles</nuxt-link>
           </li>
         </ul>
       </div>
