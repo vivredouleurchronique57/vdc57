@@ -2,7 +2,7 @@
   <nav class="vdc-bg bg-primary border-gray-200">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <div class="flex items-center">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+        <img src="img/logo_white_without_border.png" class="h-8 mr-3" alt="VDC 57" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap text-primary-50">VDC 57</span>
       </div>
       <button
