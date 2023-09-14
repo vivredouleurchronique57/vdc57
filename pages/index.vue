@@ -1,8 +1,14 @@
 <template>
   <main>
     <section class="self-center flex flex-col flex-1 items-center justify-center">
-      <h1 class="title text-center">VDC 57</h1>
-      <h2 class="subtitle text-center">Vivre avec la douleur chronique</h2>
+      <img src="img/logo_10_anniversary.png" alt="10eme anniversaire" />
+      <h1 class="title text-center">Vivre avec la douleur chronique</h1>
+      <!-- <h2 class="subtitle text-center">blabla</h2> -->
+      <p class="text-center">
+        <span>Inscription au tribunal de Metz et reconnue d'intérêt général</span>
+        <br />
+        <span>Volume : 162 Folio N°2 / N°SIREN 823 712 773 00014</span>
+      </p>
     </section>
 
     <section class="mt-8">
