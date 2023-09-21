@@ -24,7 +24,7 @@
                 {{ formatDate(post.createdAt) }}
               </h6>
             </span>
-            <p class="mt-2">{{ post.description }}</p>
+            <p v-if="post.description" class="mt-2">{{ post.description }}</p>
           </span>
         </template>
       </nuxt-link>
